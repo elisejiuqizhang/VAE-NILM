@@ -1,7 +1,8 @@
 import sys
 sys.path.append('preprocess')
 import matplotlib
-matplotlib.use("TkAgg")
+# matplotlib.use("TkAgg")
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.pyplot import savefig

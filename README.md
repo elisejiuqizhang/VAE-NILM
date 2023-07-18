@@ -20,10 +20,10 @@ https://github.com/DLZRMR/seq2subseq
 
 # Setup
 
-1. Create your own environment with Python > 3.6
-2. Configure deep learning environment with Tensorflow
-3. Install others requirement packages
-4. Clone this repository
+```
+conda install -n VAE_NILM python=3.7
+pip install -r requirements.txt
+```
 
 # Datasets and preprocessing
 
